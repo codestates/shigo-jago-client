@@ -60,7 +60,7 @@ class UserInfo extends Component {
   }
 
   componentDidMount() {
-    const { accessToken, userInfoHandler, socialInfoHandler } = this.props;
+    const { accessToken, userInfoHandler } = this.props;
     
     axios.get('http://localhost:4000/mypage/userinfo', {
       headers: {"Authorization": `Bearer ${accessToken}`}
