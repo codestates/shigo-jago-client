@@ -35,9 +35,9 @@
     width: 600px;
     opacity: 0.7;
 }
-
+  
 .helpEmail> input:active, .helpEmail> input:hover{
-    opacity: 1;
+    opacity: 1; 
 }
 
 .helpnName> label{
@@ -88,5 +88,5 @@
 
 .GetHelp:hover{
     text-decoration: underline;
-    background-color: #7b7bfd;
+    background-color: #7B7BFD;
 }

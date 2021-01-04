@@ -112,4 +112,4 @@ class GetHelp extends React.Component {
     }
 }
 
-export default withRouter(GetHelp);
+export default withRouter(GetHelp); 
