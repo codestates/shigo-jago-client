@@ -55,6 +55,7 @@ class GetHelp extends React.Component {
                         <div className="helpEmail">
                             <label htmlFor="helpEmail">이메일 주소</label>
                             <br></br>
+
                             <input
                                 type="email"
                                 name="helpEmail"
@@ -91,7 +92,7 @@ class GetHelp extends React.Component {
                         <div className="helpMessage">
                             <label htmlFor="helpMessage">메시지</label>
                             <br></br>
-                            <textarea id="message" name="helpMessage" rows="10" cols="50"
+                            <textarea id="message" name="helpMessage" rows="8" cols="80"
                                 onChange={this.handleInputValue("message")} placeholder="메시지를 적어주세요">
                             </textarea>
                         </div>
